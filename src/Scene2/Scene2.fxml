@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Scene2.Scene2Controller">
+   <children>
+      <VBox alignment="CENTER" layoutX="-3.0" prefHeight="415.0" prefWidth="608.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SCENE 2" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="62.0" />
+               </font>
+            </Text>
+            <JFXButton fx:id="BTN_OpenScene" buttonType="RAISED" onAction="#openScene" text="Open Scene 1" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
